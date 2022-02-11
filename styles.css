@@ -52,3 +52,7 @@ body {
 .search::placeholder {
     color: #D03900;
 }
+
+.search::selection {
+    color:#a745ed;
+}
