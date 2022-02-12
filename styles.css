@@ -176,43 +176,55 @@ th {
 }
 
 .add-movie-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    width: 75%;
-    left: 115px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
 }
 
-.add-movie-wrapper p {
-    color: white;
+.add-movie-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-proper input {
+    height: 30px;
+    justify-content: space-between;
+    
+    font-family: Roboto Mono;
+}
+
+.input-movie {
+    width: 100%;
+}
+
+.input-year, .input-rating {
+    width: 10%;
+}
+
+.form-wrapper {
+    background: #c4c4c4;
+    border-radius: 20px;
+    width: 80%;
+
+    padding: 21px 23.5px;
+    /* width: 100%; */
+    left: 20%;
+}
+
+.add-movie-text {
+    color: #fff;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
-}
-
-.form-wrapper {
-    width: 980px;
-    /* left: 115px;
-    top: 925px; */
-
-    background: #c4c4c4;
-    border-radius: 20px;
+    line-height: 47px;
 }
 
 .add-btn {
-    text-align: center;
-
-    width: 25%;
-    left: calc(50% - 158px / 2 + 497px);
-    bottom: 30px;
-
-    background: #fe852c;
-    /* 04 dp */
-
-    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 2px 4px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    background: #FE852C;
     border-radius: 15px;
+
     padding: 16px 41px;
 
     color: #fff;
@@ -220,34 +232,7 @@ th {
     font-style: normal;
     font-weight: normal;
     font-size: 36px;
-}
 
-.form-wrapper {
-    /* margin: auto; */
-    align-items: center;
-}
-
-.addyear,
-.addrating {
-    width: 10%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.addtitle {
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-input[type='text']:focus {
-    border: 1px solid rgb(255, 255, 255);
+    user-select: none;
+    cursor: pointer;
 }
