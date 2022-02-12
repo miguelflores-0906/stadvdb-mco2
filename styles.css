@@ -90,6 +90,7 @@ body {
 
 .item table {
     width: 100%;
+    /* table-layout: fixed; */
 }
 
 .item table td, th {
@@ -98,9 +99,12 @@ body {
     padding: 8px;
 }
 
+.movie-title {
+    max-width: 50%;
+}
+
 .svg-link {
     text-decoration: none;
-    decoration: none;
 }
 
 .item-header {
@@ -123,6 +127,7 @@ body {
 
 .item-header table {
     width: 100%;
+    /* table-layout: fixed; */
 }
 
 .item-header table td, th {
