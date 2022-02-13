@@ -7,8 +7,21 @@
         <title>IMDB Movies</title>
         <link rel="stylesheet" href="styles.css" />
         <link rel="icon" type="image/x-icon" href="graphics\android-chrome-512x512.png">
+        <script src="script.js"></script>
     </head>
     <body>
+
+        <div class="overlay" id="overlay">
+            <div class="delete-mov" id="delete-movie">
+                <p class="delete-text">Are you sure you want to delete: </p>
+                <p class="delete-text">Insert Movie title here</p>
+                <button class="delete-can" onclick="show_hide()"> Cancel </div>
+                <button class="delete-del" onclick="show_hide()"> Delete </div>
+            </div>
+        </div>
+
+
+
         <div class="header">
             <h1>IMDB MOVIES</h1>
         </div>
