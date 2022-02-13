@@ -195,11 +195,13 @@ th {
     border-radius: 18px;
     font-size: 30px;
     font-family: Roboto Mono;
+
+    outline: none;
+    border: none;
 }
 
 .form-proper input::placeholder {
     color: rgba(77, 74, 74, 0.6);
-    
 }
 
 .input-title {
@@ -213,6 +215,13 @@ th {
     width: 15%;
     padding-left: 15px;
     padding-top: 5px; 
+}
+
+.input-year::-webkit-outer-spin-button,
+.input-year::-webkit-inner-spin-button,
+.input-rating::-webkit-inner-spin-button,
+.input-rating::-webkit-outer-spin-button {
+    -webkit-appearance: none;
 }
 
 .form-wrapper {
